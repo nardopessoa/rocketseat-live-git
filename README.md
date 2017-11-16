@@ -1,21 +1,16 @@
 # RocketseatLiveGit
 
-**TODO: Add description**
+Desafio lançado na live sobre fluxo git e github.
 
-## Installation
+## Instalação
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `rocketseat_live_git` to your list of dependencies in `mix.exs`:
+Este pacote pode ser instalado adicionando `rocketseat_live_git` em sua lista de dependencias
+declarada no arquivo `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:rocketseat_live_git, "~> 0.1.0"}
+    {:rocketseat_live_git, github: "nardopessoa/rocketseat-live-git", branch: "master"}
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/rocketseat_live_git](https://hexdocs.pm/rocketseat_live_git).
-
